@@ -3,7 +3,7 @@ generator Client {
     output = "../../../node_modules/@prisma-clients/jobber-auth"
 }
 
-datasource db {
+datasource db { 
     provider = "postgresql"
     url      = env("AUTH_DATABASE_URL")
 }
